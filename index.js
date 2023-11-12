@@ -3,8 +3,8 @@ const { useSpring, animated } = require('@react-spring/web')
 const useWindowSize = require('./useWindowSize')
 
 const settings = {
-  maxTilt: 25, // in deg
-  rotationPower: 50,
+  maxTilt: 1, // in deg
+  rotationPower: 5,
   swipeThreshold: 0.5 // need to update this threshold for RN (1.5 seems reasonable...?)
 }
 
