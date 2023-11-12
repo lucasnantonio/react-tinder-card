@@ -11,16 +11,16 @@ const settings = {
 // physical properties of the spring
 const physics = {
   touchResponsive: {
-    friction: 50,
-    tension: 2000
+    friction: 500,
+    tension: 20
   },
   animateOut: {
     friction: 30,
-    tension: 400
+    tension: 40
   },
   animateBack: {
-    friction: 10,
-    tension: 200
+    friction: 1000,
+    tension: 2
   }
 }
 
